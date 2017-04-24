@@ -9,8 +9,6 @@ npm install react-native-search-list --save
 
 One of the dependancies in this libary contains native modules. Follow the [Linking Libraries (iOS)](http://facebook.github.io/react-native/docs/linking-libraries-ios.html) guide on React Native website for instructions on how to link these.
 
-Note this component is only supported on iOS.
-
 ## <a name='usage'>Usage</a>
 ```
 import SearchListView from 'react-native-search-list';

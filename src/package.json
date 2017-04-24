@@ -1,0 +1,29 @@
+{
+  "name": "react-native-search-list",
+  "version": "0.1.0",
+  "description": "Search list view for React Native",
+  "main": "searchListView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+      "react-native-search-bar-tst": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipMortiboy/react-native-search-list.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "ReactNative",
+    "Seach",
+    "ListView"
+  ],
+  "author": "Philip Mortiboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhilipMortiboy/react-native-search-list/issues"
+  },
+  "homepage": "https://github.com/PhilipMortiboy/react-native-search-list#readme"
+}
