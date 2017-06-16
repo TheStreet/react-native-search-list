@@ -5,6 +5,7 @@ import {
     ListView
 } from 'react-native';
 import SearchBar from 'react-native-search-bar-tst';
+import Style from './style';
 
 class SearchListView extends React.Component {
     constructor(props) {
@@ -25,9 +26,7 @@ class SearchListView extends React.Component {
     render () {
         return (
             <View
-                style={{
-                    flex: 1
-                }}
+                style={Style.container}
             >
                 <View>
                     <SearchBar
@@ -49,9 +48,7 @@ class SearchListView extends React.Component {
         if (this.state.isSearching) {
             return (
                 <View
-                    style={{
-                        flex: 1
-                    }}
+                    style={Style.container}
                 >
                     {this.renderNotice()}
                     <ListView
@@ -74,18 +71,10 @@ class SearchListView extends React.Component {
 
             return (
                 <View
-                    style={{
-                        justifyContent: 'center',
-                    }}
+                    style={Style.noticeContainer}
                 >
                     <Text
-                        style={{
-                            padding: 10,
-                            textAlign: 'center',
-                            color: 'grey',
-                            fontWeight: '400',
-                            fontSize: 14
-                        }}
+                        style={Style.noticeText}
                     >{message}</Text>
                 </View>
             )
