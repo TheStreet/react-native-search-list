@@ -1,6 +1,3 @@
-[![NPM Version](https://img.shields.io/npm/v/react-native-search-list.svg?style=flat)](https://www.npmjs.com/package/react-native-search-list)
-[![NPM Downloads](https://img.shields.io/npm/dm/react-native-search-list.svg?style=flat)](https://www.npmjs.com/package/react-native-search-list)
-
 # react-native-search-list
 
 A React Native ListView with a search bar
