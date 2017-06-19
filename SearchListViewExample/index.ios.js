@@ -13,7 +13,7 @@ import {
   ListView,
   TouchableHighlight
 } from 'react-native';
-import SearchListView from './searchListView';
+import SearchListView from 'react-native-search-list';
 
 const data = [
   "Miles Davis",
